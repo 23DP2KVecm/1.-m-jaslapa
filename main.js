@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 factContainer.innerText = "Nevarēja iegūt kaķu faktu.";
             });
     }
-
+    //test
     // kad poga ir nospiesta atrod jaunu kaka faktu
     nextFactBtn.addEventListener("click", fetchFact);
 });
