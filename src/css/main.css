@@ -217,3 +217,49 @@ footer {
 .facts-container button:hover {
     background-color: #ff9900;
 }
+
+#info {
+    padding: 40px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#info h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#info p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.info-box {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+    .info-box {
+        display: inline-block;
+        width: 45%;
+        margin: 10px 2.5%;
+    }
+}
